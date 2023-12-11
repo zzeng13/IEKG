@@ -1,0 +1,4 @@
+{
+  "additional_tokens_list": "./data/atomic_additional_tokens_list.json",
+  "path_to_data": "./data/iekg_knowledge_tuples_processed_{}_type_split.json"
+}

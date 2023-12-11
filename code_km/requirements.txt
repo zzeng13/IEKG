@@ -1,0 +1,8 @@
+numpy==1.19.5
+rouge_score==0.0.4
+sacrebleu==2.0.0
+scikit_learn==1.1.2
+tensorboardX==2.5.1
+torch==1.10.0
+tqdm==4.61.1
+transformers==4.9.1
