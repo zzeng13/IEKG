@@ -9,7 +9,7 @@ This repo contains the data and knowledge modeling implementation for the Idioma
   
 The paper is published in EMNLP 2023. Please refer to the [paper](https://aclanthology.org/2023.emnlp-main.881/) for more details.  
   
-The formatted data for IEKG is in: `./iekg_data/iekg_knowledge_tuples_processed.jsonl` . The data file contain a list of directiories in which each data instance is a knowledge tuple in the following format: 
+The formatted data for IEKG is in: `./iekg_data/iekg_knowledge_tuples_processed.jsonl` . The data file contains a list of directories in which each data instance is a knowledge tuple in the following format: 
 ```
 {
         "idiomatic_event": "PersonX wins by a hair's breadth",
@@ -19,7 +19,7 @@ The formatted data for IEKG is in: `./iekg_data/iekg_knowledge_tuples_processed.
         "defn": "A very small amount or short length"
 }
 ```
-where `idiomatic_event`, `relation_type`, and `annotation` are the head, relation and tail annotation of the knowledge tuple and `idiom` contains the original idiom and `defn` contains its definition as supplied by the annotators.
+where `idiomatic_event`, `relation_type`, and `annotation` are the head, relation, and tail annotation of the knowledge tuple and `idiom` contains the original idiom, and `defn` contains its definition as supplied by the annotators.
 
 The implementation of the knowledge model training is under the direction `./code_km`. Please see the `README.md` under the directory for more details. 
 
