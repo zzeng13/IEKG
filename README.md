@@ -5,9 +5,9 @@ Data and knowledge model implementation for IEKG -- the **I**diomatic **E**xpres
   
 ## Description  
   
-This repo contains the data and knowledge modeling implementation for the Idiomatic Expression Knowledge Graph from the paper: *IEKG: Idiomatic Expression Knowledge Graph*.  
+This repo contains the data and knowledge modeling implementation for the Idiomatic Expression Knowledge Graph from the paper: *IEKG: A Commonsense Knowledge Graph for Idiomatic Expressions*.  
   
-The paper is published in EMNLP 2023. Please refer to the paper for more details.  
+The paper is published in EMNLP 2023. Please refer to the [paper](https://aclanthology.org/2023.emnlp-main.881/) for more details.  
   
 The formatted data for IEKG is in: `./iekg_data/iekg_knowledge_tuples_processed.jsonl` . The data file contain a list of directiories in which each data instance is a knowledge tuple in the following format: 
 ```
